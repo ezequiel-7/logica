@@ -12,10 +12,10 @@ function adicao() {
 
 // Utilização de parametros e retorno
 
-function adicao7(adicao8, adicao9) {
-    return adicao8 + adicao9;
+function adicao(valor1, valor2) {
+    return valor1 + valor2;
 }
-console.log('Resultado = ', adicao7(5, 5));
+console.log('Resultado = ', adicao(5, 5));
 
 // Subtração
 
@@ -31,10 +31,10 @@ function subtrair() {
 
 // Utilização de parametros e retorno
 
-function subtrair7(subtracao8, subtracao9) {
-    return subtracao8 - subtracao9;
+function subtrair(valor1, valor2) {
+    return valor1 - valor2;
 }
-console.log('Resultado = ', subtrair7(6, 3));  
+console.log('Resultado = ', subtrair(6, 3));  
 
 // Multiplicação
 
@@ -50,10 +50,10 @@ function multiplicar() {
 
 // Utilização de parametros e retorno
 
-function multiplicar7(multiplicar8, multiplicar9) {
-    return multiplicar8 * multiplicar9;
+function multiplicar(valor1, valor2) {
+    return valor1 * valor2;
 }
-console.log('Resultado = ', multiplicar7(7, 7));
+console.log('Resultado = ', multiplicar(7, 7));
 
 // Divisão
 
@@ -69,7 +69,7 @@ function dividir() {
 
 // Utilização de parametros e retorno
 
-function dividir7(dividir8, dividir9) {
-    return dividir8 - dividir9;
+function dividir(valor1, valor2) {
+    return valor1 - valor2;
 }
-console.log('Resultado = ', dividir7(20, 5));
+console.log('Resultado = ', dividir(20, 5));
