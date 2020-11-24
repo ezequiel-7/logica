@@ -11,3 +11,10 @@ function media() {
 
     }
     media();
+
+    // Utilização de parametros e retorno
+
+    function media2(media1, media2, media3) {
+        return (media1 + media2 + media3) / 3;
+    }
+    console.log('Média = ', media2(10, 8, 7, 3));
