@@ -51,4 +51,4 @@ function depositar(valorDeposito) {
 }
 
 consultar_cliente();
- depositar(700);
+ depositar(1700);
