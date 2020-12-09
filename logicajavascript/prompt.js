@@ -1,4 +1,4 @@
-alert('Obrigatório o Preenchimento da Ficha')
+alert('Obrigatório o Preenchimento da Lista')
 var clientes = [];
 var cliente = {}
 
