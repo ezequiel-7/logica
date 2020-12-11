@@ -20,3 +20,4 @@ console.log(clientes);
 
 let result = confirm('Tem certeza que quer confirmar isso?');
 console.log(result);
+confirm('Confirmação Registroda');
