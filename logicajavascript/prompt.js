@@ -9,8 +9,8 @@ clientes.push(cliente);
 function preencherCliente() {
 cliente.nome = prompt("Digite seu Nome");
 cliente.nacimento = prompt("Digite sua Data de Nacimento");
-cliente.cpf = prompt("Digite seu cpf");
-cliente.rg = prompt("Digite seu rg");
+cliente.cpf = prompt("Digite seu CPF");
+cliente.rg = prompt("Digite seu RG");
 cliente.endereco = prompt("Digite seu Endereço");
 }
 
