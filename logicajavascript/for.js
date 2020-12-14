@@ -16,11 +16,10 @@ cliente.endereco = prompt("Digite seu Endereço");
 
 preencherCliente();
 cadastrarCliente(cliente);
-console.log(clientes);
 
 let result = confirm('Tem certeza que quer confirmar isso?');
 console.log(result);
-confirm('Confirmação Registroda');
+confirm('Confirmação Registrada');
 
 clientes.push(cliente);
 for(var contador = 0; contador < clientes.length; contador++) {
