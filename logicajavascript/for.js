@@ -20,4 +20,9 @@ console.log(clientes);
 
 let result = confirm('Tem certeza que quer confirmar isso?');
 console.log(result);
-confirm('Confirmação Registrada');
+confirm('Confirmação Registroda');
+
+clientes.push(cliente);
+for(var contador = 0; contador < clientes.length; contador++) {
+    console.log("\n Nome : ", cliente.nome, "\n Data de Nacimento : ", cliente.nacimento, "\n CPF : ", cliente.cpf, "\n RG : ", cliente.rg, "\n Endereço : ", cliente.endereco);
+}
